@@ -62,26 +62,42 @@
 		A4C5D2F729A7FE9A002A9B3F /* EbacExercicioModulo14 */ = {
 			isa = PBXGroup;
 			children = (
-				A4C5D2F829A7FE9A002A9B3F /* AppDelegate.swift */,
-				A4C5D2FA29A7FE9A002A9B3F /* SceneDelegate.swift */,
-				A4C5D2FC29A7FE9A002A9B3F /* MainTableViewController.swift */,
-				A4C5D31529A85E6D002A9B3F /* NewYorkTableViewCell.swift */,
-				A4C5D30F29A800A4002A9B3F /* ResponseNews.swift */,
-				A4C5D2FE29A7FE9A002A9B3F /* Main.storyboard */,
+				A4C5D32029A87A4F002A9B3F /* Model */,
+				A4C5D32229A87AA0002A9B3F /* View */,
+				A4C5D32129A87A56002A9B3F /* Controller */,
 				A4C5D30129A7FE9D002A9B3F /* Assets.xcassets */,
-				A4C5D30329A7FE9D002A9B3F /* LaunchScreen.storyboard */,
 				A4C5D30629A7FE9D002A9B3F /* Info.plist */,
-				A4C5D30C29A7FFFA002A9B3F /* Data */,
 			);
 			path = EbacExercicioModulo14;
 			sourceTree = "<group>";
 		};
-		A4C5D30C29A7FFFA002A9B3F /* Data */ = {
+		A4C5D32029A87A4F002A9B3F /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				A4C5D31329A810AD002A9B3F /* file.json */,
+				A4C5D30F29A800A4002A9B3F /* ResponseNews.swift */,
 			);
-			path = Data;
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A4C5D32129A87A56002A9B3F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A4C5D2F829A7FE9A002A9B3F /* AppDelegate.swift */,
+				A4C5D2FA29A7FE9A002A9B3F /* SceneDelegate.swift */,
+				A4C5D2FC29A7FE9A002A9B3F /* MainTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A4C5D32229A87AA0002A9B3F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A4C5D31529A85E6D002A9B3F /* NewYorkTableViewCell.swift */,
+				A4C5D2FE29A7FE9A002A9B3F /* Main.storyboard */,
+				A4C5D30329A7FE9D002A9B3F /* LaunchScreen.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
